@@ -25,11 +25,11 @@ function greet1(username: string, greeting: string = 'Hi'): string {
 console.log(greet1('kumar','hey'))
 
 //optional parametres
-function greet(name: string, age?: number): string {
+function greets(name: string, age?: number): string {
     return age ? `Hello, ${name}. You are ${age} years old.` : `Hello, ${name}.`;
   }
 
-  console.log(greet('kumar',28))
+  console.log(greets('kumar',28))
 
   //rest parameter
   function sum(...numbers:number[]):number{
